@@ -427,3 +427,30 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# CMake specific files
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+CMakeUserPresets.json
+
+# Build directories
+/build/
+build/
+out/
+cmake-build-*/
+
+# Makefiles
+Makefile
+*.make
+
+# Third-party dependencies
+/third_party/
